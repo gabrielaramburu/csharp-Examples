@@ -35,5 +35,11 @@ namespace WinFormsApp1.persistencia
             //esto lo vamos a mejorar en futuras versiones
             return null;
         }
+
+        public ArrayList bucarTodos()
+        {
+            return this.usuarios;
+
+        }
     }
 }
