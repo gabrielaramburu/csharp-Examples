@@ -36,7 +36,7 @@ namespace WinFormsApp1.persistencia
             return null;
         }
 
-        public ArrayList bucarTodos()
+        public ArrayList buscarTodos()
         {
             return this.usuarios;
 
