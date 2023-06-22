@@ -17,8 +17,15 @@ namespace WinFormsApp1.persistencia
         public RepositorioUsuarios()
         {
             usuarios = new ArrayList();
-            usuarios.Add(new Usuario("pepe","123"));
-            usuarios.Add(new Usuario("aa", "aa"));
+            usuarios.Add(new Usuario(1, "pepe","123"));
+            usuarios.Add(new Usuario(2, "aa", "aa"));
+            usuarios.Add(new Usuario(3, "aa1", "aa"));
+            usuarios.Add(new Usuario(4, "aa2", "aa"));
+            usuarios.Add(new Usuario(5, "aa3", "aa"));
+            usuarios.Add(new Usuario(6, "aa4", "aa"));
+            usuarios.Add(new Usuario(7, "aa5", "aa"));
+            usuarios.Add(new Usuario(8, "aa6", "aa"));
+            usuarios.Add(new Usuario(9, "aa7", "aa"));
         }
 
         public Usuario buscarUsuario(string login)
@@ -41,5 +48,21 @@ namespace WinFormsApp1.persistencia
             return this.usuarios;
 
         }
+
+        public Usuario buscarUsuarioPorId(int id)
+        {
+            foreach (Usuario usr in usuarios)
+            {
+                if (usr.id == id)
+                {
+                   
+                    return usr;
+                }
+            }
+            //esto lo vamos a mejorar en futuras versiones
+            return null;
+        }
+
+        
     }
 }

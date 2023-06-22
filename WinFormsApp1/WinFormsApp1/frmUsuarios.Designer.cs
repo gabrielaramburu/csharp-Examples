@@ -39,6 +39,8 @@
             label3 = new Label();
             button3 = new Button();
             button4 = new Button();
+            label4 = new Label();
+            textBox4 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -73,23 +75,22 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(409, 27);
+            label1.Location = new Point(400, 80);
             label1.Name = "label1";
             label1.Size = new Size(37, 15);
             label1.TabIndex = 3;
             label1.Text = "Login";
-            label1.Click += label1_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(409, 45);
+            textBox1.Location = new Point(400, 102);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(246, 23);
             textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(409, 106);
+            textBox2.Location = new Point(400, 154);
             textBox2.Name = "textBox2";
             textBox2.PasswordChar = '*';
             textBox2.Size = new Size(247, 23);
@@ -97,7 +98,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(409, 157);
+            textBox3.Location = new Point(400, 206);
             textBox3.Name = "textBox3";
             textBox3.PasswordChar = '*';
             textBox3.Size = new Size(245, 23);
@@ -106,7 +107,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(409, 88);
+            label2.Location = new Point(400, 132);
             label2.Name = "label2";
             label2.Size = new Size(67, 15);
             label2.TabIndex = 7;
@@ -115,7 +116,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(409, 139);
+            label3.Location = new Point(400, 184);
             label3.Name = "label3";
             label3.Size = new Size(98, 15);
             label3.TabIndex = 8;
@@ -138,12 +139,32 @@
             button4.TabIndex = 10;
             button4.Text = "Modificar";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(400, 28);
+            label4.Name = "label4";
+            label4.Size = new Size(17, 15);
+            label4.TabIndex = 11;
+            label4.Text = "id";
+            // 
+            // textBox4
+            // 
+            textBox4.Enabled = false;
+            textBox4.Location = new Point(400, 50);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(78, 23);
+            textBox4.TabIndex = 12;
             // 
             // frmUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(705, 327);
+            Controls.Add(textBox4);
+            Controls.Add(label4);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(label3);
@@ -157,6 +178,7 @@
             Controls.Add(button1);
             Name = "frmUsuarios";
             Text = "Mantenimiento de usuarios";
+            Load += frmUsuarios_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -175,5 +197,7 @@
         private Label label3;
         private Button button3;
         private Button button4;
+        private Label label4;
+        private TextBox textBox4;
     }
 }

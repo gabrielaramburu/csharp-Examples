@@ -28,5 +28,10 @@ namespace WinFormsApp1
             frmLogin frmLog = new frmLogin();
             frmLog.ShowDialog(); //modal
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

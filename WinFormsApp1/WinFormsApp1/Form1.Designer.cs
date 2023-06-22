@@ -81,6 +81,7 @@
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Ejercicio";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

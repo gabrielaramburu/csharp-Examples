@@ -96,6 +96,7 @@
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "frmLogin";
             Text = "Login";
+            Load += frmLogin_Load;
             ResumeLayout(false);
             PerformLayout();
         }
