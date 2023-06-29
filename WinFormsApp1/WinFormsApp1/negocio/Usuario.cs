@@ -33,6 +33,11 @@ namespace WinFormsApp1.negocio
             this.pass = pass;
         }
 
+        public Usuario(int id)
+        {
+            this.id = id;
+        }
+
         public bool passwordCorrecta(string passAvalidar)
         {
            return pass.Equals(passAvalidar) ? true : false;
@@ -61,5 +66,9 @@ namespace WinFormsApp1.negocio
         }
       
       
+        public  bool borrarUsuario()
+        {
+            return repo.borrarUsuario(this.id);
+        }
     }
 }

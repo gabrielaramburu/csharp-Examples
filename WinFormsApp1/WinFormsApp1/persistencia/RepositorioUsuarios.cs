@@ -63,6 +63,20 @@ namespace WinFormsApp1.persistencia
             return null;
         }
 
+
+        public bool borrarUsuario(int idUsuario)
+        {
+            foreach (Usuario usr in usuarios)
+            {
+                if (usr.id == idUsuario)
+                {
+                    usuarios.Remove(usr);//borro usuario de la lista
+                    return true;
+                }
+            }
+          
+            return false;
+        }
         
     }
 }

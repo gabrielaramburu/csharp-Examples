@@ -62,6 +62,8 @@
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(354, 222);
             dataGridView1.TabIndex = 1;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // button2
             // 
@@ -71,6 +73,7 @@
             button2.TabIndex = 2;
             button2.Text = "Eliminar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
