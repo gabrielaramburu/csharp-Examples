@@ -1,0 +1,15 @@
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\Persistencia.AssemblyInfo.cs
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Persistencia\Persistencia\bin\Debug\net6.0\Persistencia.deps.json
+C:\Users\gabri\source\repos\Persistencia\Persistencia\bin\Debug\net6.0\Persistencia.dll
+C:\Users\gabri\source\repos\Persistencia\Persistencia\bin\Debug\net6.0\Persistencia.pdb
+C:\Users\gabri\source\repos\Persistencia\Persistencia\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\gabri\source\repos\Persistencia\Persistencia\bin\Debug\net6.0\MySql.Data.xml
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\Persistencia.csproj.CopyComplete
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\Persistencia.dll
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\refint\Persistencia.dll
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\Persistencia.pdb
+C:\Users\gabri\source\repos\Persistencia\Persistencia\obj\Debug\net6.0\ref\Persistencia.dll
