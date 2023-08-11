@@ -32,7 +32,7 @@ namespace Negocio
         }
 
         public override string ToString() { 
-            return this.id + " " + this.login + "" + this.password;
+            return this.id + " " + this.login + " " + this.password;
         }
     }
 }
