@@ -25,6 +25,7 @@ namespace Presentacion
             foreach (Usuario usr in Usuario.obtenerUsuarios())
             {
                 listUsuarios.Items.Add(usr);
+                
             };
         }
     }

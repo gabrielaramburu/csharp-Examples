@@ -21,6 +21,7 @@ namespace Negocio
             ArrayList usuariosObtenidos = new ArrayList();
 
             RepositorioUsuario repoUsr = new RepositorioUsuario();
+
             foreach(UsuarioVO usrVO in repoUsr.obtenerUsuarios()) {
                 usuariosObtenidos.Add(new Usuario(
                                                 usrVO.id,  
