@@ -7,9 +7,7 @@ C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\bin\Debug\net6.0\Nego
 C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\bin\Debug\net6.0\Negocio.dll
 C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\bin\Debug\net6.0\Negocio.pdb
 C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\bin\Debug\net6.0\Persistencia.dll
-C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\bin\Debug\net6.0\MySql.Data.dll
 C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\bin\Debug\net6.0\Persistencia.pdb
-C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\bin\Debug\net6.0\MySql.Data.xml
 C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
 C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\obj\Debug\net6.0\Negocio.dll
 C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\obj\Debug\net6.0\refint\Negocio.dll

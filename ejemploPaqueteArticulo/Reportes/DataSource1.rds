@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="DataSource1">
+  <ConnectionProperties>
+    <Extension>ODBC</Extension>
+    <ConnectString>Dsn=prueba2;uid=usuarioApp;pwd=usuarioApp1234</ConnectString>
+    <Prompt>Especifique un nombre de usuario y una contraseña para el origen de datos DataSource1:</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>5796acd4-1019-428a-a15c-2fc5f1cdf13c</DataSourceID>
+</RptDataSource>

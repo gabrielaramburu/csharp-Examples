@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Negocio</id>
+    <version>1.0.0</version>
+    <authors>Negocio</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Persistencia" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\gabri\source\repos\ejemploPaqueteArticulo\Negocio\bin\Debug\net6.0\Negocio.dll" target="lib\net6.0\Negocio.dll" />
+  </files>
+</package>
